@@ -44,7 +44,7 @@ pipeline {
                      else \
                     echo OK; \
                  fi;);
-            docker container run --restart always --name sporty-shoes -p 8081:6060 -d sport-shoes
+            docker container run --restart always --name sporty-shoes -p 80:6060 -d sport-shoes
             '''
             }
         }
